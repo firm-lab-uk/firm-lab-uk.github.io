@@ -1,0 +1,41 @@
+{{- define "main" }}
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{- .Title }}</h1>
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $pending := where .RegularPages "Params.status" "ne" "published" }}
+{{- $published := where .RegularPages "Params.status" "published" }}
+
+{{- if $pending }}
+<h2 class="pub-group-title">Pending</h2>
+{{- range sort ($pending.GroupByDate "2006") "Key" "desc" }}
+<h3 class="pub-year">{{ .Key }}</h3>
+{{- range .Pages.ByDate.Reverse }}
+{{- partial "publication-card.html" . }}
+{{- end }}
+{{- end }}
+{{- end }}
+
+{{- if $published }}
+<h2 class="pub-group-title">Published</h2>
+{{- range sort ($published.GroupByDate "2006") "Key" "desc" }}
+<h3 class="pub-year">{{ .Key }}</h3>
+{{- range .Pages.ByDate.Reverse }}
+{{- partial "publication-card.html" . }}
+{{- end }}
+{{- end }}
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}

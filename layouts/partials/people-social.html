@@ -1,0 +1,11 @@
+{{- with .Params.social }}
+<ul class="people-social-icons">
+  {{- range . }}
+  <li>
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer me" aria-label="{{ .name | title }}" title="{{ .name | title }}">
+      {{ partial "svg.html" (dict "name" .name) }}
+    </a>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}
