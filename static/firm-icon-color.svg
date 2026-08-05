@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <!-- Feedback loop: mineralogy <-> mantle flow -->
+  <path d="M 46.92 87.46 A 80 80 0 0 1 196.08 95.28" fill="none" stroke="#1b3a4b" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="202.88,116.20 204.64,92.50 187.53,98.06" fill="#1b3a4b"/>
+
+  <path d="M 193.08 152.54 A 80 80 0 0 1 43.92 144.72" fill="none" stroke="#1b3a4b" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="37.12,123.80 35.36,147.50 52.47,141.94" fill="#1b3a4b"/>
+
+  <!-- Mineral phase horizon: wavy discontinuity, centered on (120,120) -->
+  <path d="M 60 120 Q 80 98 100 120 T 140 120 T 180 120"
+        fill="none" stroke="#c76b3c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Phase-transition point -->
+  <circle cx="120" cy="120" r="6.5" fill="#c76b3c"/>
+</svg>

@@ -1,0 +1,100 @@
+baseURL: "https://firm-lab-uk.github.io/"
+title: "FIRM"
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: People
+          url: people/
+          weight: 1
+        - name: Research
+          url: research/
+          weight: 2
+        - name: Publications
+          url: publications/
+          weight: 3
+        - name: News
+          url: news/
+          weight: 4
+        - name: Contact
+          url: contact/
+          weight: 5
+
+params:
+    author: "FIRM Project Team"
+    description: "Official landing page of the UKRI NERC Large Grant no. NE/V018477/1: Feedbacks In Reactions and Mantle dynamics (FIRM)."
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "02 January 2006"
+    defaultTheme: auto
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["people", "research", "publications", "news", "contact"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: "***F**eedbacks **I**n **R**eactions and **M**antle dynamics* (FIRM)"
+          subtitle: "FIRM investigates how non-hydrostatic stress in a flowing mantle drives phase changes, and how the resulting density changes shape flow in return. We combine high-pressure experiments, mathematical modeling, geodynamic simulations, and seismic imaging techniques. This work is funded by [UKRI NERC Large Grant No. NE/V018477/1](https://gotw.nerc.ac.uk/list_split.asp?awardref=NE%2FV018477%2F1)"
+          imageUrl: "firm-icon-mono.svg"
+          imageWidth: 200
+          imageHeight: 200
+          buttons:
+            - name: People
+              url: people/
+            - name: Research
+              url: research/
+            - name: Publications
+              url: publications/
+            - name: News
+              url: news/
+            - name: Contact
+              url: contact/
+
+    socialIcons:
+
+    assets:
+        favicon: "favicon-gray.ico"
+        favicon16x16: "favicon-gray-16x16.png"
+        favicon32x32: "favicon-gray-32x32.png"
+        apple_touch_icon: "apple-touch-icon-gray.png"
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "FIRM"
+      icon: firm-icon-mono.svg
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

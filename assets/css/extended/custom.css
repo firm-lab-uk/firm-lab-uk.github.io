@@ -1,0 +1,144 @@
+.profile-inner-svg {
+  display: block;
+  border-radius: 50%;
+  border: 1px solid var(--tertiary);
+  box-sizing: border-box;
+  line-height: 0;
+}
+
+.profile-inner-svg svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.people-entry {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.people-avatar-link {
+  display: block;
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+}
+
+.people-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.people-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.people-social-icons {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  margin: 1em 0em 0em 0em;
+  padding: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.people-social-icons li a {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  color: var(--secondary, currentColor);
+  pointer-events: auto;
+}
+
+.people-social-icons li a svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.pub-group-title {
+  margin-top: 2rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.pub-year {
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.pub-entry .entry-content {
+  padding: 0;
+}
+
+.pub-authors {
+  margin: 0;
+  color: var(--secondary);
+}
+
+.pub-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pub-footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pub-date {
+  color: var(--secondary);
+  font-size: 0.9em;
+}
+
+.pub-links {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.pub-links li a {
+  display: inline-flex;
+  color: var(--secondary, currentColor);
+  pointer-events: auto;
+}
+
+.pub-links li a:hover {
+  color: var(--primary);
+}
+
+.pub-links li a svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.pub-status-badge {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  border-radius: 0.75em;
+  background: var(--tertiary);
+  color: var(--content);
+  font-size: 0.9em;
+  font-weight: normal;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
