@@ -23,22 +23,7 @@
     <span class="pub-date">{{- if not $pub.Date.IsZero }}{{ $pub.Date | time.Format "January 2006" }}{{ end }}{{ if and (not $pub.Date.IsZero) $pub.Params.venue }}&nbsp;&middot;&nbsp;{{ end }}{{ with $pub.Params.venue }}{{ . }}{{ end }}</span>
     {{- end }}
     <div class="pub-footer-right">
-      {{- with $pub.Params.links }}
-      <ul class="pub-links">
-        {{- range . }}
-        {{- $href := .url }}
-        {{- with .file }}
-        {{- $res := $pub.Resources.GetMatch . }}
-        {{- if $res }}{{ $href = $res.RelPermalink }}{{ end }}
-        {{- end }}
-        <li>
-          <a href="{{ $href }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name | title }}" title="{{ .name | title }}">
-            {{ partial "svg.html" (dict "name" .name) }}
-          </a>
-        </li>
-        {{- end }}
-      </ul>
-      {{- end }}
+      {{- partial "publication-links.html" $pub }}
       {{- if and (ne $pub.Params.status "published") $pub.Params.status }}
       <span class="pub-status-badge">{{ $pub.Params.status }}</span>
       {{- end }}

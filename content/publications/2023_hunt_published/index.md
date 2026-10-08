@@ -4,7 +4,7 @@ date: 2023-08-23
 tags: ["published", "high-pressure experiments", "digital image correlation", "x-radiography"]
 author: ["S. Hunt"]
 description: "The new algorithm FoilTrack streamlines the processing of X-radiographic images from high-pressure multi-anvil experiments into a single-step process."
-status: published
+status: "published"
 venue: "High Pressure Research"
 summary: "The new algorithm FoilTrack streamlines the processing of X-radiographic images from high-pressure multi-anvil experiments into a single-step process."
 cover:
@@ -13,7 +13,7 @@ cover:
   relative: true
 links:
   - name: online
-    url: https://www.tandfonline.com/doi/full/10.1080/08957959.2023.2247542
+    url: https://doi.org/10.1080/08957959.2023.2247542
   - name: pdf
     file: paper.pdf
   - name: github
@@ -23,11 +23,6 @@ links:
 ![](image.png)
 
 ***Figure:*** *Example X-radiograph from the high pressure synchrotron experiment used to validate the software algorithms in this study. The dark areas at either side of the image are the shadows of the tungsten carbide anvils and the samples are observed in the bright central stripe. The red boxes are the positions of the regions of interest tracked between images. The scale of the image is 2 μm/pixel.*
-
-## Download
-
-- [Online](https://www.tandfonline.com/doi/full/10.1080/08957959.2023.2247542)
-- [Paper](paper.pdf)
 
 ## Abstract
 

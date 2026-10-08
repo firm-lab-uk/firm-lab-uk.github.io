@@ -4,7 +4,7 @@ date: 2025-12-17
 tags: ["published", "TEM", "EBSD", "olivine dislocations"]
 author: ["J. Wheeler", "S. Hunt", "J. Donoghue", "A. Gholinia", "E. Tillotson", "S.J. Haigh"]
 description: "This study demonstrates that mobile dislocations with an [010] Burgers vector component form subgrain walls in olivine under subduction zone conditions."
-status: published
+status: "published"
 venue: "Geophysical Research Letters"
 summary: "This study demonstrates that mobile dislocations with an [010] Burgers vector component form subgrain walls in olivine under subduction zone conditions."
 cover:
@@ -13,7 +13,7 @@ cover:
   relative: true
 links:
   - name: online
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025GL117138
+    url: https://doi.org/10.1029/2025GL117138
   - name: pdf
     file: paper.pdf
   - name: zenodo
@@ -23,11 +23,6 @@ links:
 ![](image.png)
 
 ***Figure:*** *Atomic resolution STEM characterization of b dislocations in olivine. (a) Atomic-resolution ADF-STEM image of b dislocation in olivine with (020) planes highlighted in red and extra half plane related to a separate edge dislocation in blue. (b) Magnified image of central part and model of M1 positions in the dislocation inset at bottom, matching the white rectangle. (c) Atomic-resolution image of defect-free olivine with (insets) atomic columns identified using known positions and simulated ADF image.*
-
-## Download
-
-- [Online](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025GL117138)
-- [Paper](paper.pdf)
 
 ## Abstract
 

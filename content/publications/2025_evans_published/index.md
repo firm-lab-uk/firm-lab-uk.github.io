@@ -4,7 +4,7 @@ date: 2025-10-16
 tags: ["published", "structural geology", "fracture networks", "fluid flow", "lithium"]
 author: ["A. Evans", "N. Farrell", "D. Neave", "M. Hartley", "D. Healy", "J. Waters", "T. McElhinney", "J. Shea", "N. Bigaroni", "S. Hunt"]
 description: "This study establishes a temporal model of fracture evolution and mineralisation at the lithium-rich Cligga Head granite in southwest England."
-status: published
+status: "published"
 venue: "Journal of Structural Geology"
 summary: "This study establishes a temporal model of fracture evolution and mineralisation at the lithium-rich Cligga Head granite in southwest England."
 cover:
@@ -13,7 +13,7 @@ cover:
   relative: true
 links:
   - name: online
-    url: https://www.sciencedirect.com/science/article/pii/S0191814125001853#abs0010
+    url: https://doi.org/10.1016/j.jsg.2025.105510
   - name: pdf
     file: paper.pdf
   - name: figshare
@@ -23,11 +23,6 @@ links:
 ![](image.png)
 
 ***Figure:*** *Schematic evolution of fractures at the exposed Cligga Head granite as interpreted from younging tables. Each phase of fracturing is represented as a block model complimented with an equal area stereonet. The mean fracture plane is plotted in green with pole density calculated using the Schmidt 1% method.*
-
-## Download
-
-- [Online](https://www.sciencedirect.com/science/article/pii/S0191814125001853#abs0010)
-- [Paper](paper.pdf)
 
 ## Abstract
 

@@ -4,7 +4,7 @@ date: 2026-07-17
 tags: ["published", "mineral physics", "reaction kinetics", "geodynamics", "numerical modeling"]
 author: ["B. Kerswell", "J. Wheeler", "R. Gassmöller", "J.H. Davies", "I. Papanagnou", "S. Cottaar"]
 description: "This paper implements microscale reaction kinetics to investigate how the 410 km discontinuity is shaped by olivine metastability and slab strength."
-status: published
+status: "published"
 venue: "Journal of Geophysical Research: Solid Earth"
 summary: "This paper implements microscale reaction kinetics to investigate how the 410 km discontinuity is shaped by olivine metastability and slab strength."
 cover:
@@ -13,7 +13,7 @@ cover:
   relative: true
 links:
   - name: online
-    url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026JB033781
+    url: https://doi.org/10.1029/2026JB033781
   - name: pdf
     file: paper.pdf
   - name: github
@@ -25,11 +25,6 @@ links:
 ![](image.png)
 
 ***Figure:*** *Slab simulations with moderately sluggish olivine $\Leftrightarrow$ wadsleyite kinetics after 100 Ma evolution. Panels show dynamic temperature $\hat{T}$ (left), dynamic density $\hat{\rho}$ (middle), and pressure-wave velocity $V_p$ (right). Thin lines highlight the 10% and 90% wadsleyite volume fraction contours ($X$ = 0.1 and 0.9). The 410 displacement is defined as the difference between the depth at X = 0.9 and the nominal equilibrium olivine $\Leftrightarrow$ wadsleyite transition depth, while the 410 width is defined as the difference between depths at X = 0.9 and X = 0.1 (see Supplementary Information for details). The white arrows (right) indicate where the 410 structure was measured.*
-
-## Download
-
-- [Online](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026JB033781)
-- [Paper](paper.pdf)
 
 ## Abstract
 

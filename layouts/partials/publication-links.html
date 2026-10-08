@@ -1,0 +1,17 @@
+{{- $page := . }}
+{{- with $page.Params.links }}
+<ul class="pub-links">
+  {{- range . }}
+  {{- $href := .url }}
+  {{- with .file }}
+  {{- $res := $page.Resources.GetMatch . }}
+  {{- if $res }}{{ $href = $res.RelPermalink }}{{ end }}
+  {{- end }}
+  <li>
+    <a href="{{ $href }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name | title }}" title="{{ .name | title }}">
+      {{ partial "svg.html" (dict "name" .name) }}
+    </a>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}

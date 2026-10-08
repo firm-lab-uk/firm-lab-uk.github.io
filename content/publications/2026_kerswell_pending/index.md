@@ -1,10 +1,10 @@
 ---
 title: "Beyond Equilibrium II: Ringwoodite Decomposition Kinetics Amplify 660 km Discontinuity Depressions and Offer an Independent Control on Slab Stagnation"
 date: 2026-08-05
-tags: ["submitted", "mineral physics", "reaction kinetics", "geodynamics", "numerical modeling"]
+tags: ["in review", "mineral physics", "reaction kinetics", "geodynamics", "numerical modeling"]
 author: ["B. Kerswell", "J. Wheeler", "R. Gassmöller", "J.H. Davies", "I. Papanagnou", "S. Cottaar", "D.P. Dobson"]
 description: "This paper implements microscale reaction kinetics to investigate how MTZ is shaped by metastability and slab strength."
-status: submitted
+status: "in review"
 venue: "Journal of Geophysical Research: Solid Earth"
 summary: "This paper implements microscale reaction kinetics to investigate how MTZ is shaped by metastability and slab strength."
 cover:
@@ -13,22 +13,18 @@ cover:
   relative: true
 links:
 #   - name: online
-#     url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026JB033781
+#     url:
 #   - name: pdf
 #     file: paper.pdf
   - name: github
     url: https://github.com/buchanankerswell/kerswell_et_al_660_kinetics
 #   - name: zenodo
-#     url: https://doi.org/10.5281/zenodo.19662566
+#     url:
 ---
 
 ![](image.png)
 
 ***Figure:*** *Slab simulations with sluggish olivine $\Leftrightarrow$ wadsleyite $\Leftrightarrow$ ringwoodite kinetics, and fast ringwoodite $\Leftrightarrow$ postspinel kinetics after 100 Ma evolution. Panels show the volume fraction $X$ of wadsleyite (left), ringwoodite (middle), and the postspinel assemblage (right). Thin lines highlight the 10% and 90% volume fraction contours ($X$ = 0.1 and 0.9) which outline the 410 and 660 km discontinuities.*
-
-## Download
-
-Pending.
 
 ## Abstract
 

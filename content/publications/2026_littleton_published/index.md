@@ -4,7 +4,7 @@ date: 2026-06-07
 tags: ["published", "mineral physics", "high-pressure experiments"]
 author: ["J. Littleton", "A. Evans", "J. Neukampf", "T. McElhinney", "S. Hunt"]
 description: "This study presents the first high pressure--temperature phase diagram for an olivine-structured lithium-metal-phosphate cathode material ($\\mathrm{LiMnPO}_4$)."
-status: published
+status: "published"
 venue: "Journal of Materials Science"
 summary: "This study presents the first high pressure--temperature phase diagram for an olivine-structured lithium-metal-phosphate cathode material ($\\mathrm{LiMnPO}_4$)."
 cover:
@@ -13,7 +13,7 @@ cover:
   relative: true
 links:
   - name: online
-    url: https://link.springer.com/article/10.1007/s10853-026-13008-z
+    url: https://doi.org/10.1007/s10853-026-13008-z
   - name: pdf
     file: paper.pdf
   - name: figshare
@@ -23,11 +23,6 @@ links:
 ![](image.png)
 
 ***Figure:*** ***a** An illustration depicting the cross-section of the high-pressure cell design used to conduct hot-pressing experiments. In three dimensions, the high-pressure cell is a regular octahedron with edge lengths of 18 mm. **b** A fully assembled high-pressure cell sitting in four truncated tungsten-carbide anvils. The thermocouple wires extruding the high-pressure cell are wound with copper wire and threaded through holes drilled into pyrophyllite gaskets. The anvils are electrically isolated using yellow insulation tape and white cardboard paper. Four more anvils with gaskets and electrical insulation are placed directly on top of this assembly prior to conducting hot-pressing experiments. **c** A post-experiment high-pressure cell. The triangular face shown is looking top-down at the high-pressure cell in Fig. 1a. The tops of the zirconia annulus, crescent-shaped stainless-steel disc, and alumina-based cement are visible.*
-
-## Download
-
-- [Online](https://link.springer.com/article/10.1007/s10853-026-13008-z)
-- [Paper](paper.pdf)
 
 ## Abstract
 
